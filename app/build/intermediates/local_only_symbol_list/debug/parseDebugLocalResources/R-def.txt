@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable bg
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id feels_like_label_text_view
+id feels_like_text_view
+id humidity_label_text_view
+id humidity_text_view
+id location_text_view
+id main
+id temperature_label_text_view
+id temperature_text_view
+id uv_index_label_text_view
+id uv_index_text_view
+id visibility_label_text_view
+id visibility_text_view
+id weather_label_text_view
+id weather_text_view
+id wind_direction_label_text_view
+id wind_direction_text_view
+id wind_speed_label_text_view
+id wind_speed_text_view
+layout activity_home
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Weather
+style Theme.Weather
+xml backup_rules
+xml data_extraction_rules

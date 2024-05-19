@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".HomeActivity">
+
+    <!-- Location TextView -->
+    <TextView
+        android:id="@+id/location_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp" />
+
+    <!-- Weather TextView -->
+    <TextView
+        android:id="@+id/weather_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weather: "
+        android:textSize="22dp"
+        android:layout_below="@id/location_text_view"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/weather_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/location_text_view"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="200dp" />
+
+    <!-- Temperature TextView -->
+
+    <TextView
+        android:id="@+id/temperature_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weather_label_text_view"
+        android:layout_marginTop="20dp"
+        android:text="Temperature: "
+        android:textSize="22dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/temperature_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/weather_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp" />
+
+    <!-- Feels Like TextView -->
+    <TextView
+        android:id="@+id/feels_like_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feels Like: "
+        android:textSize="22dp"
+        android:layout_below="@id/temperature_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/feels_like_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/temperature_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp" />
+
+    <!-- Wind Speed TextView -->
+    <TextView
+        android:id="@+id/wind_speed_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind Speed: "
+        android:textSize="22dp"
+        android:layout_below="@id/feels_like_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/wind_speed_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/feels_like_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp" />
+
+    <!-- Wind Direction TextView -->
+    <TextView
+        android:id="@+id/wind_direction_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind Direction: "
+        android:textSize="22dp"
+        android:layout_below="@id/wind_speed_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/wind_direction_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/wind_speed_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp" />
+
+    <!-- Humidity TextView -->
+    <TextView
+        android:id="@+id/humidity_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity: "
+        android:textSize="22dp"
+        android:layout_below="@id/wind_direction_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/humidity_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/wind_direction_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp" />
+
+    <!-- UV Index TextView -->
+    <TextView
+        android:id="@+id/uv_index_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UV Index: "
+        android:textSize="22dp"
+        android:layout_below="@id/humidity_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/uv_index_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/humidity_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp" />
+
+    <!-- Visibility TextView -->
+    <TextView
+        android:id="@+id/visibility_label_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visibility: "
+        android:textSize="22dp"
+        android:layout_below="@id/uv_index_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/visibility_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="22dp"
+        android:layout_below="@id/uv_index_label_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="200dp" />
+
+
+</RelativeLayout>
